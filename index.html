@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- main css -->
+    <link rel="stylesheet" href="main.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://kit.fontawesome.com/0091808458.css" crossorigin="anonymous">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <!-- title -->
+    <title>Discord Clone | SAHEB</title>
+    <!-- style -->
+    <style>
+        .back-img {
+            background-position: 51% 100%;
+        }
+
+        .starimg {
+            background-size: 100% 30%
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper" class="overflow-x-hidden">
+        <!-- navbar -->
+        <nav class="w-full bg-DiscordBlue flex justify-center items-center">
+            <div class="w-full max-w-[1180px] h-20 flex justify-between items-center mx-4 px-4 lg:px-0">
+                <!--Discord logo -->
+                <img src="./images/logo.svg" alt="logo">
+                <!-- nav Links -->
+                <ul class="hidden lg:flex justify-center items-center gap-x-10 text-white font-bold font-['ggSans']">
+                    <li class="hover:underline"><a href="#">Download</a></li>
+                    <li class="hover:underline"><a href="#">Nitro</a></li>
+                    <li class="hover:underline"><a href="#">Discover</a></li>
+                    <li class="hover:underline"><a href="#">Safety</a></li>
+                    <li class="hover:underline"><a href="#">Support</a></li>
+                    <li class="hover:underline"><a href="#">Blog</a></li>
+                    <li class="hover:underline"><a href="#">Careers</a></li>
+                </ul>
+                <!-- button and hemburger -->
+                <div class="flex justify-center items-center gap-x-3 lg:gap-x-0">
+                    <!-- Nav Button -->
+                    <button
+                        class="bg-white text-black text-sm font-extralight font-['ggSans'] rounded-full px-4 py-2 hover:drop-shadow-[0_3px_3px_rgba(0,0,0,0.5)] hover:text-DiscordBlue transition-all duration-200 ease-linear">Login</button>
+                    <!-- Nav Hamburger -->
+                    <i class="fa-solid fa-bars text-white text-3xl cursor-pointer lg:before:hidden"></i>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <!-- hero Section -->
+            <section
+                class="w-full bg-[url(./images/image0.svg)] bg-no-repeat back-img bg-DiscordBlue flex justify-center items-center">
+                <div class="relative flex flex-col justify-center items-start md:items-end">
+                    <!-- first image -->
+                    <img src="./images/Image2.svg" alt="" class="absolute bottom-0 -left-[25.5rem] hidden xl:block">
+                    <!-- hero content -->
+                    <div
+                        class="w-full max-w-[1260px] pt-10  px-[24px] xl:pt-[7rem] xl:pb-[8.2rem] xl:pl-56 xl:pr-56 flex flex-col justify-center items-start xl:items-center gap-y-4 md:gap-y-8">
+                        <h1
+                            class="font-['GintoNord'] font-[800] text-white text-3xl md:text-[3.5rem] text-left xl:text-center">
+                            IMAGINE A
+                            PLACE...</h1>
+                        <p
+                            class="font-['gg sans'] font-[400] text-white text-md md:text-[1.2rem] leading-[32.5px] text-left pr-[2rem] md:pr-[20rem] xl:pr-0 xl:text-center">
+                            ...where you can belong to a school club, a gaming
+                            group, or a worldwide art community. Where
+                            just you and a handful of friends can spend time together. A place that makes it easy to
+                            talk every day and hang out more often.
+                        </p>
+                        <div class="md:flex flex-col flex-wrap">
+                            <button
+                                class=" xl:hidden text-DiscordDark bg-white text-md md:text-[1.3rem] rounded-full px-6 py-3  hover:text-DiscordBlue hover:drop-shadow-[0_3px_5px_rgba(0,0,0,0.5)] transition-all duration-200 ease-linear"><i
+                                    class="fa-solid fa-download mr-3"></i>Download from Google play
+                            </button>
+                            <button
+                                class=" xl:hidden bg-DiscordDark text-white text-md md:text-[1.3rem] rounded-full px-6 py-3 mt-3 md:mt-6  hover:text-DiscordBlue hover:drop-shadow-[0_3px_5px_rgba(0,0,0,0.5)] transition-all duration-200 ease-linear">
+                                Open Discord in your browser
+                            </button>
+                        </div>
+
+
+                        <div class="hidden xl:block">
+                            <button
+                                class=" text-DiscordDark bg-white text-[1.3rem] rounded-full px-6 py-3 mr-6 hover:text-DiscordBlue hover:drop-shadow-[0_3px_5px_rgba(0,0,0,0.5)] transition-all duration-200 ease-linear"><i
+                                    class="fa-solid fa-download mr-3"></i>Download for Window</button>
+                            <button
+                                class=" bg-DiscordDark text-white text-[1.3rem] rounded-full px-6 py-3 hover:drop-shadow-[0_3px_5px_rgba(0,0,0,0.5)] transition-all duration-200 ease-linear">Open
+                                Discord in your browser</button>
+                        </div>
+
+                    </div>
+                    <!-- images for tab & phone -->
+                    <img src="./images/Image1.svg" alt=""
+                        class="xl:bottom-0 xl:absolute xl:-right-[21.8rem] w-[80%] translate-x-32 xl:translate-x-0 xl:w-fit hidden md:block">
+                    <img src="./images/Image2.svg" alt="" class="w-[80%] md:hidden mt-[10px] md:mt-[50px]">
+                </div>
+            </section>
+            <!-- section 2 -->
+            <section class="bg-DiscordGray w-full">
+                <div
+                    class="w-full max-w-[1260px] flex flex-col md:flex-row justify-center items-center gap-x-4 xl:gap-x-28 py-[56px] px-[24px] md:py-[120px] md:px-[40px] mx-auto">
+                    <!-- left part -->
+                    <img src="./images/section1Image.svg" alt="" class="w-fit md:w-[50%] xl:w-fit">
+                    <!-- right part -->
+                    <div class="xl:w-[50%] w-fit">
+                        <h3
+                            class="text-left text-2xl md:text-5xl leading-[1.2] font-['gg sans'] font-[700] text-DiscordDark">
+                            Create an invite-only place where you belong
+                        </h3>
+                        <p
+                            class="text-left text-md md:text-xl leading-[1.5] font-['gg sans'] font-[400] text-DiscordDark mt-[24px]">
+                            Discord servers are organized into topic-based channels where you can collaborate, share,
+                            and just talk about your day without clogging up a group chat.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- section 3 -->
+            <section class="bg-DiscordGray w-full">
+                <div
+                    class="w-full max-w-[1260px] flex flex-col-reverse md:flex-row justify-center items-center gap-x-4 xl:gap-x-28 py-[56px] px-[24px] md:py-[120px] md:px-[40px] mx-auto">
+                    <!-- left part -->
+                    <div class="xl:w-[50%] w-fit">
+                        <h3
+                            class="text-left text-2xl md:text-5xl leading-[1.2] font-['gg sans'] font-[700] text-DiscordDark">
+                            Where hanging out is easy
+                        </h3>
+                        <p
+                            class="text-left text-md md:text-xl leading-[1.5] font-['gg sans'] font-[400] text-DiscordDark mt-[24px]">
+                            Grab a seat in a voice channel when you’re free. Friends in your server can see you’re
+                            around and instantly pop in to talk without having to call.
+                        </p>
+                    </div>
+                    <!-- right part -->
+                    <img src="./images/section2Image.svg" alt="" class="w-fit md:w-[50%] xl:w-fit">
+                </div>
+            </section>
+            <!-- section 2 -->
+            <section class="bg-DiscordGray w-full">
+                <div
+                    class="w-full max-w-[1260px] flex flex-col md:flex-row justify-center items-center gap-x-4 xl:gap-x-28 py-[56px] px-[24px] md:py-[120px] md:px-[40px] mx-auto">
+                    <!-- left part -->
+                    <img src="./images/section3Image.svg" alt="" class="w-fit md:w-[50%] xl:w-fit">
+                    <!-- right part -->
+                    <div class="xl:w-[50%] w-fit">
+                        <h3
+                            class="text-left text-2xl md:text-5xl leading-[1.2] font-['gg sans'] font-[700] text-DiscordDark">
+                            From few to a fandom
+                        </h3>
+                        <p
+                            class="text-left text-md md:text-xl leading-[1.5] font-['gg sans'] font-[400] text-DiscordDark mt-[24px]">
+                            Get any community running with moderation tools and custom member access. Give members
+                            special powers, set up private channels, and more. </p>
+                    </div>
+                </div>
+            </section>
+            <!-- last section -->
+            <section class="bg-DiscordGray w-full">
+                <div
+                    class="w-full max-w-[1260px] flex flex-col justify-center items-start md:items-center py-[56px] px-[24px] md:pt-[120px] md:pb-[80px] md:px-[40px] mx-auto">
+                    <h2
+                        class="font-['GintoNord'] font-[800] text-DiscordDark text-[1.5rem] md:text-[2rem] lg:text-[2.5rem] text-start md:text-center">
+                        RELIABLE TECH FOR STAYING CLOSE
+                    </h2>
+                    <p
+                        class="font-['gg sans'] font-[400] text-DiscordDark text-[1rem] md:text-lg lg:text-[1.2rem] text-start md:text-center mt-[1.5rem] xl:mx-[7rem]">
+                        Low-latency voice and video feels like you're in the same room. Wave hello over video, watch
+                        friends stream their games, or gather up and have a drawing session with screen share.
+                    </p>
+                    <img src="./images/section4Image.svg" alt="" class="w-full mt-[1rem]">
+                </div>
+                <div
+                    class="bg-[url(./images/section5Image.svg)] bg-no-repeat bg-cover starimg flex flex-col justify-center items-center gap-y-10 px-[24px] mb-[56px] md:px-[40px] md:mb-[120px]">
+                    <p class="font-['gg sans'] font-[700] text-[1.4rem] md:text-[2rem] mt-[30px]">Ready to start your
+                        journey?</p>
+                    <button
+                        class=" text-white bg-DiscordDarkBlue text-md md:text-[1.3rem] w-full md:w-fit rounded-full px-6 py-3 hover:bg-DiscordHover hover:drop-shadow-[0_3px_5px_rgba(0,0,0,0.5)] transition-all duration-200 ease-linear"><i
+                            class="fa-solid fa-download mr-3"></i>Download for Window</button>
+                    </button>
+                </div>
+            </section>
+
+            <!-- footer -->
+
+            <footer class="w-full bg-DiscordDark">
+                <div class="w-full max-w-[1260px] text-DiscordDarkBlue mx-auto pt-24 flex flex-col gap-10 pb-10">
+                    <!-- Section 1 -->
+                    <div class="flex xl:gap-[100px] gap-[40px] flex-col md:flex-row px-5">
+                        <!-- Left Section -->
+                        <div class="flex flex-col gap-[24px] w-[100%] md:w-[50%] xl:w-[20%]">
+                            <h1 class="font-[800] font-['GintoNord'] text-[32px] leading-[30.4px]">
+                                IMAGINE A
+                                <br />
+                                PLACE
+                            </h1>
+                            <div class="flex justify-start items-center gap-x-2 cursor-pointer">
+                                <img src="./images/us logo.png" alt="" width="24px" height="16px">
+                                <p class="text-sm text-white font-['gg sans']">Englsih, USA <i
+                                        class="text-[10px] font-extralight fa-sharp fa-solid fa-angle-down"></i></p>
+                            </div>
+                            <div class="text-white text-[23px] flex gap-7">
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-brands fa-square-facebook"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Right Section -->
+                        <div class="md:w-[75%] flex justify-around flex-wrap">
+                            <div class="w-[50%] xl:w-fit">
+                                <h2 class="text-[16px] font-['ggSans'] xl:py-[10px] py-[15px]">
+                                    Product
+                                </h2>
+                                <ul
+                                    class="text-white flex flex-col gap-[10px] leading-[24px] font-[400] font-['ggSans']">
+                                    <li class="hover:underline"><a href="#">Download</a></li>
+                                    <li class="hover:underline"><a href="#">Nitro</a></li>
+                                    <li class="hover:underline"><a href="#">Status</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="w-[50%] xl:w-fit">
+                                <h2 class="text-[16px] font-['ggSans'] xl:py-[10px] py-[15px]">
+                                    Company
+                                </h2>
+                                <ul
+                                    class="text-white flex flex-col gap-[10px] leading-[24px] font-[400] font-['ggSans']">
+                                    <li class="hover:underline"><a href="#">About</a></li>
+                                    <li class="hover:underline"><a href="#">Jobs</a></li>
+                                    <li class="hover:underline"><a href="#">Branding</a></li>
+                                    <li class="hover:underline"><a href="#">Newsroom</a></li>
+                                    <li class="hover:underline text-[#1f1f1f00] select-none">
+                                        <a href="#">.</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="w-[50%] xl:w-fit">
+                                <h2 class="text-[16px] font-['ggSans'] xl:py-[10px] py-[15px]">
+                                    Resources
+                                </h2>
+                                <ul
+                                    class="text-white flex flex-col gap-[10px] leading-[24px] font-[400] font-['ggSans']">
+                                    <li class="hover:underline"><a href="#">Colleges</a></li>
+                                    <li class="hover:underline"><a href="#">Support</a></li>
+                                    <li class="hover:underline"><a href="#">Safety</a></li>
+                                    <li class="hover:underline"><a href="#">Blog</a></li>
+                                    <li class="hover:underline"><a href="#">Feedback</a></li>
+                                    <li class="hover:underline"><a href="#">Developers</a></li>
+                                    <li class="hover:underline"><a href="#">StreamKit</a></li>
+                                    <li class="hover:underline"><a href="#">Creators</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="w-[50%] xl:w-fit">
+                                <h2 class="text-[16px] font-['ggSans'] xl:py-[10px] py-[15px]">
+                                    Policies
+                                </h2>
+                                <ul
+                                    class="text-white flex flex-col gap-[10px] leading-[24px] font-[400] font-['ggSans']">
+                                    <li class="hover:underline"><a href="#">Terms</a></li>
+                                    <li class="hover:underline"><a href="#">Privacy</a></li>
+                                    <li class="hover:underline"><a href="#">Cookie Settings</a></li>
+                                    <li class="hover:underline"><a href="#">Guidelines</a></li>
+                                    <li class="hover:underline"><a href="#">Acknowledgements</a></li>
+                                    <li class="hover:underline"><a href="#">Licenses</a></li>
+                                    <li class="hover:underline"><a href="#">Moderation</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Section 2 -->
+                    <div class="flex border-t-2 border-DiscordDarkBlue items-center justify-between pt-7 mx-5">
+                        <div class="text-white">
+                            <img src="./images/logo.svg" alt="logo">
+                        </div>
+
+
+                        <button
+                            class="text-white bg-DiscordDarkBlue px-[16px] py-[7px] rounded-full leading-[24px] text-[14px] font-[500] hover:bg-DiscordHover hover:drop-shadow-[0_3px_5px_rgba(0,0,0,0.5)] transition-all duration-200 ease-linear">
+                            Sign up
+                        </button>
+
+                    </div>
+                </div>
+            </footer>
+
+        </main>
+    </div>
+    <script src="https://kit.fontawesome.com/0091808458.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
